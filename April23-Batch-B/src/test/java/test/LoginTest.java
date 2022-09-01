@@ -33,5 +33,10 @@ public class LoginTest extends BaseTest {
 		lp.enterCread("Admin","admin123");
 		lp.submit();
 	}
+
+         @Test(priority=4)
+	public void login() {
+		driver.close();
+}
 	
 }
